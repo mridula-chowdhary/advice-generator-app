@@ -8,4 +8,6 @@ async function fetchAdvice() {
       console.error('Error fetching advice:', error);
     }
   }
-  
+  document.addEventListener('DOMContentLoaded', () => {
+    fetchAdvice();
+  });
