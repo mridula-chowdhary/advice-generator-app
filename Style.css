@@ -1,0 +1,66 @@
+/* Global styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: lightcyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.app {
+  position: relative; /* Add position relative to enable absolute positioning for children */
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.advice-id {
+  color: pink;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.advice-text {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.dice {
+  position: absolute;
+  bottom: -20px; /* Move the dice button down outside the container */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dice-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.dice-btn:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive styling */
+@media (min-width: 768px) {
+  /* Add any larger screen adjustments here if needed */
+}

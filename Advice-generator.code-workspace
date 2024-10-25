@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Advice-generator",
+			"path": "."
+		},
+		{
+			"name": "images",
+			"path": "C:/Users/HP/Documents/advice-generator-app-task-updated/images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Advice-generator"
+	}
+}
